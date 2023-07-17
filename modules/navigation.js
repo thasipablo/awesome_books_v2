@@ -1,4 +1,4 @@
-export const handleNavigation = (event) => {
+const handleNavigation = (event) => {
   event.preventDefault();
   const targetSection = event.target.dataset.section;
   const sections = document.querySelectorAll('.main-container, .second-container, .contact-info');
@@ -19,3 +19,5 @@ export const handleNavigation = (event) => {
   // Add active class to the clicked nav link
   event.target.classList.add('active');
 };
+
+export default handleNavigation;

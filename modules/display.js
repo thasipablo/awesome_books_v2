@@ -1,7 +1,7 @@
-import { retrieveBooksFromStorage } from "./storage.js";
-import { Book } from "./book.js";
+import retrieveBooksFromStorage from './storage.js';
+import Book from './book.js';
 
-export const displayBooks = () => {
+const displayBooks = () => {
   const books = retrieveBooksFromStorage();
   const booksContainer = document.querySelector('.books-collection');
   booksContainer.innerHTML = '';
@@ -27,3 +27,5 @@ export const displayBooks = () => {
     booksContainer.appendChild(bookCard);
   });
 };
+
+export default displayBooks;
