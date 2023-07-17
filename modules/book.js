@@ -1,5 +1,6 @@
-// Declare booksCollection as an empty array
-let books = [];
+import { retrieveBooksFromStorage } from "./storage.js";
+
+let books = retrieveBooksFromStorage();
 
 export class Book {
   constructor(title, author) {
