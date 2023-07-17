@@ -97,12 +97,6 @@ To run tests, run the following command:
 - Twitter: [@thasipablo_](https://twitter.com/thasipablo_)
 - LinkedIn: [thasipablo](https://linkedin.com/in/thasipablo)
 
-👤 **Author 2**
-
-- GitHub: [@CVILLA09](https://github.com/CVILLA09)
-- Twitter: [@cvillevir](https://twitter.com/cvillevir)
-- LinkedIn: [cristianvilla](https://www.linkedin.com/in/cristian-villa-5b518127b/)
-
 <!-- CONTRIBUTING -->
 
 ## 🔭 Future Features <a name="future-features"></a>
