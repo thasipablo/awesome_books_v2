@@ -111,7 +111,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/thasipablo/awesome_books/issues).
+Feel free to check the [issues page](https://github.com/thasipablo/awesome_books_v2/issues).
 
 <!-- SUPPORT -->
 
