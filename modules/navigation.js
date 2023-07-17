@@ -1,13 +1,6 @@
 import { Book } from "./books.js";
 import { displayBooks } from "./display.js";
 
-
-// Add event listeners to the navigation links
-const navLinks = document.querySelectorAll(".nav-link");
-navLinks.forEach((link) => {
-  link.addEventListener("click", handleNavigation);
-});
-
 // Function to handle navigation
 export const handleNavigation = (event) => {
   event.preventDefault();
@@ -32,3 +25,9 @@ export const handleNavigation = (event) => {
   // Add active class to the clicked nav link
   event.target.classList.add("active");
 };
+
+// Add event listeners to the navigation links
+const navLinks = document.querySelectorAll(".nav-link");
+navLinks.forEach((link) => {
+  link.addEventListener("click", handleNavigation);
+});
