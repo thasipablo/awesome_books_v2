@@ -1,4 +1,4 @@
-import { DateTime } from "luxon";
+import { DateTime } from '../node_modules/luxon/src/luxon.js';
 
 const time = () => {
   const time = DateTime.now().toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS);
