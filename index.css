@@ -12,7 +12,6 @@ header {
   padding: 20px;
   margin: 0;
   margin-top: 1vh;
-  width: 90%;
   height: 4vh;
   font-size: 30px;
   position: fixed;
@@ -21,6 +20,15 @@ header {
   right: 5%;
   display: flex;
   align-items: center;
+}
+
+.time {
+  text-align: right;
+  position: relative;
+  right: 3rem;
+  width: 100%;
+  font-size: 1.3rem;
+  margin-top: calc(4vh + 4rem);
 }
 
 nav {
@@ -198,7 +206,6 @@ footer {
   border: 5px solid black;
   padding: 20px;
   margin: 0;
-  width: 90%;
   height: 4vh;
   font-size: 30px;
   font-weight: bolder;
